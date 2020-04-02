@@ -116,7 +116,12 @@ header .headline{
 .sidebar-contents{
 	padding: 50px 0;
 }
-.popular-text, .categories-text:last-child{
+.popular-text, .categories-text{
+	padding-bottom: 5px;
+	border-bottom: 1px solid #f7f7f7;
+	margin-bottom: 5px;
+}
+.popular-text:last-child, .categories-text:last-child{
 	margin: 0;
 	padding: 0;
 	border: none;
@@ -148,6 +153,21 @@ header .headline{
 }
 .instagram-box:nth-child(6){
 	background-image: url(img_1/road.jpg);
+}
+.pagination{
+	text-align: center;
+	padding-top: 50px;
+}
+.pag{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	color: white;
+	background-color: #acabab;
+	border-radius: 3px;
+	padding: 0 5px;
+	height: 30px;
+	line-height: 30px;
 }
 footer{
 	width: 100%;
